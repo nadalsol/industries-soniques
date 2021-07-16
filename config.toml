@@ -1,0 +1,4 @@
+baseURL = "https://industries-soniques.com/"
+languageCode = "en-us"
+title = "Industries Soniques"
+theme = "ananke"
