@@ -1,4 +1,19 @@
 baseURL = "https://industries-soniques.com/"
-languageCode = "en-us"
-title = "Industries Soniques"
-theme = "ananke"
+languageCode = "en-gb"
+title = "Indústries Sòniques"
+enableRobotsTXT = true
+
+[params]
+  # favicon = ""
+  description = "Sonic oddities for your eyes. Music for commercials & films"
+
+  # Company info
+  companyEmail = "hello@industries-soniques.com"
+  # companyPhone = "34 123 456 789"
+
+  # Social links
+  instagram = "https://www.instagram.com/industries_soniques/"
+
+# [Enable raw HTML within markdown content](https://bit.ly/3J6OfCa)
+# [markup.goldmark.renderer]
+#   unsafe= true

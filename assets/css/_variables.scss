@@ -1,0 +1,30 @@
+// TradekartWebsite variables
+// -----------------------------------------------------------------------------
+//
+// Naming conventions used for variables inspired by [ZenCSSProperties]
+//
+// Some of the prefixes used:
+// * b = border
+// * bg = background;
+// * c = color
+// * ff = font-family
+// * fz = font-size
+//
+
+// Base
+// -----------------------------------------------------------------------------
+// Borders
+// $br-small: 1px;
+// $br-medium: 2px;
+// $br-large: 3px;
+// $br-base: $br-medium;
+
+// Border radius
+// $brr-small: 2px;
+// $brr-medium: 4px;
+// $brr-large: 8px;
+// $brr-base: $brr-medium;
+
+// Colors
+$c-dark: #000;
+$c-light: #fff;

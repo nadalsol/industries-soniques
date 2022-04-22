@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "en" }}" class="no-js">
+  <head>
+    <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    {{/* Project-specific CSS */}}
+    {{ $scss := resources.Get "css/main.scss" }}
+    {{ $stylesheet := $scss | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $stylesheet.Permalink }}">
+  </head>
+  <body id="top">
+    <main class="main-container" role="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{/* Project-specific JS */}}
+    {{ $js := resources.Get "js/main.js" }}
+    {{ $scripts := $js | minify | fingerprint }}
+    <script src="{{ $scripts.Permalink }}"></script>
+  </body>
+</html>
