@@ -9,6 +9,8 @@
     {{ $scss := resources.Get "css/main.scss" }}
     {{ $stylesheet := $scss | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $stylesheet.Permalink }}">
+    {{/* Netlify Identity Widget */}}
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body id="top">
     <main class="main-container" role="main">
