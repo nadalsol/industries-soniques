@@ -1,4 +1,4 @@
-baseURL = "https://industries-soniques.com/"
+baseURL = "https://industries-soniques.netlify.app/" # TODO : replace for https://industries-soniques.com/ when DNS gets set up
 languageCode = "en-gb"
 title = "Indústries Sòniques"
 enableRobotsTXT = true
