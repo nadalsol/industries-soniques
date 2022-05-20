@@ -1,19 +1,23 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<div
+  style="background-color:{{ if hugo.IsProduction }}beige{{ else }}pink{{ end }}"
+>
+  <h1>{{ .Title }} ({{ if hugo.IsProduction }}Prod{{ else }}Local{{ end }})</h1>
 
-<h2>Collections</h2>
-<ul>
-  {{ range (where .Pages "Section" "blog") }}
-  <li>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </li>
-  {{ end }}
-</ul>
+  <h2>Collections</h2>
+  <ul>
+    {{ range (where .Pages "Section" "blog") }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
 
-<h2>Pattern Library</h2>
-<ul>
-  <li>
-    <a href="{{ .Site.BaseURL }}pattern-library/">Pattern Library</a>
-  </li>
-</ul>
+  <h2>Pattern Library</h2>
+  <ul>
+    <li>
+      <a href="{{ .Site.BaseURL }}pattern-library/">Pattern Library</a>
+    </li>
+  </ul>
+</div>
 {{ end }}
