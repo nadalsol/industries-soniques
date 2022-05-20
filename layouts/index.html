@@ -6,7 +6,7 @@
 
   <h2>Collections</h2>
   <ul>
-    {{ range (where .Pages "Section" "blog") }}
+    {{ range (where .Pages "Section" "works") }}
     <li>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
