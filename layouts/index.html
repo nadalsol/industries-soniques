@@ -1,6 +1,19 @@
 {{ define "main" }}
-<p>This is <strong>{{ .Title }}</strong> home page.</p>
-<p>
-  Go to <a href="{{ .Site.BaseURL }}pattern-library/">Pattern Library</a> page.
-</p>
+<h1>{{ .Title }}</h1>
+
+<h2>Collections</h2>
+<ul>
+  {{ range (where .Pages "Section" "blog") }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+
+<h2>Pattern Library</h2>
+<ul>
+  <li>
+    <a href="{{ .Site.BaseURL }}pattern-library/">Pattern Library</a>
+  </li>
+</ul>
 {{ end }}

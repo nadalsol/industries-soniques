@@ -1,0 +1,10 @@
+{{ define "main" }}
+<!-- prettier-ignore -->
+<ul>
+  {{ range $index, $value := where .Pages.ByDate.Reverse ".Draft" false}}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
