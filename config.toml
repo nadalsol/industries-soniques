@@ -5,7 +5,7 @@ enableRobotsTXT = true
 
 [params]
   # favicon = ""
-  description = "Sonic oddities for your eyes. Music for commercials & films"
+  description = "Sonic oddities for your eyes. Music for commercials and films"
 
   # Company info
   companyEmail = "hello@industries-soniques.com"
