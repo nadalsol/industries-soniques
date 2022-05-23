@@ -1,6 +1,21 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
+<h2>{{ .Params.campaign }}</h2>
 <p>{{ .Date }}</p>
-<p>{{ .Params.description }}</p>
-<article>{{ .Content }}</article>
-{{ end }}
+<ul>
+  <li>{{ .Params.vimeo_id }}</li>
+  <li>{{ .Params.video_thumbnail }}</li>
+  <!-- prettier-ignore -->
+  {{ with .Params.format }}
+  <li>{{ . }}</li>
+  {{ end }}
+  <!-- prettier-ignore -->
+  {{ with .Params.director }}
+  <li>{{ . }}</li>
+  {{ end }}
+  <li>{{ .Params.music }}</li>
+</ul>
+<!-- prettier-ignore -->
+{{ with .Content }}
+<article>{{ . }}</article>
+{{ end }} {{ end }}

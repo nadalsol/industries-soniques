@@ -36,10 +36,5 @@ collections:
           widget: "string",
           required: false,
         }
-      - {
-          label: "Music, Sound Design & Mix",
-          name: "music",
-          widget: "string",
-          required: false,
-        }
+      - { label: "Music, Sound Design & Mix", name: "music", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown", required: false }
