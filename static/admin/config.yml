@@ -36,7 +36,6 @@ collections:
           widget: "string",
           required: false,
         }
-      # - { label: "Music, Sound Design & Mix", name: "music", widget: "string" }
       - label: "Music, Sound Design & Mix"
         name: "music"
         widget: "select"
