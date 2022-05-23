@@ -36,12 +36,11 @@ collections:
           widget: "string",
           required: false,
         }
-      - { label: "Music, Sound Design & Mix", name: "music", widget: "string" }
+      # - { label: "Music, Sound Design & Mix", name: "music", widget: "string" }
       - label: "Music, Sound Design & Mix"
         name: "music"
         widget: "select"
         multiple: true
-        options:
-          - { label: "Sau Poler (Indústries Sòniques)", value: "SAU" }
-          # - { label: "Pedro Vian", value: "PED" }
+        options: ["Sau Poler (Indústries Sòniques)"]
+        default: ["Sau Poler (Indústries Sòniques)"]
       - { label: "Body", name: "body", widget: "markdown", required: false }
