@@ -3,8 +3,8 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: static/images
 public_folder: /images
-display_url: https://industries-soniques.com
-logo_url: https://industries-soniques.com/images/logo.jpeg
+display_url: https://industries-soniques.netlify.app # TODO : replace for https://industries-soniques.com/ when DNS gets set up
+logo_url: https://industries-soniques.netlify.app/images/logo.jpeg # TODO : replace for https://industries-soniques.com/ when DNS gets set up
 collections:
   - name: "works"
     label: "Works"
