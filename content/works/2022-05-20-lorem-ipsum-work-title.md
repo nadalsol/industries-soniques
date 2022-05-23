@@ -6,7 +6,7 @@ vimeo_id: https://vimeo.com/341455902
 video_thumbnail: /images/logo.jpeg
 format: Digital
 director: Martes Studio
-music: Sau Poler
+music: Sau Poler, Indústries Sòniques
 title: Lorem ipsum work title
 description: Lorem ipsum work description
 ---
