@@ -6,7 +6,8 @@ vimeo_id: https://vimeo.com/341455902
 video_thumbnail: /images/logo.jpeg
 format: Digital
 director: Héctor Ferreño
-music: Sau Poler, Indústries Sòniques
+music:
+  - Sau Poler (Indústries Sòniques)
 ---
 Music for [@mango_man](https://www.instagram.com/mango_man/) New Now Collection\
 🎥 by [@hectorferreno](https://www.instagram.com/hectorferreno/)
