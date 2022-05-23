@@ -10,11 +10,36 @@ collections:
     label: "Works"
     folder: "content/works"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     editor:
-      preview: false
+      preview: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Client", name: "client", widget: "string" }
+      - { label: "Campaign", name: "campaign", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Vimeo ID",
+          name: "vimeo_id",
+          widget: "string",
+          hint: "https://vimeo.com/341455902",
+        }
+      - {
+          label: "Video Thumbnail",
+          name: "video_thumbnail",
+          widget: "image",
+          choose_url: false,
+        }
+      - { label: "Format", name: "format", widget: "string", required: false }
+      - {
+          label: "Director",
+          name: "director",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Music, Sound Design & Mix",
+          name: "music",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
