@@ -7,7 +7,7 @@ video_thumbnail: /images/logo.jpeg
 format: Digital
 director: Emily McDonald
 music:
-  - Sau Poler (Indústries Sòniques)
+  - Sau Poler
 ---
 Music for [@nike](https://www.instagram.com/nike/) "Play New" x [@marcusrashford](https://www.instagram.com/marcusrashford/)\
 🎥 by [@emily_mcdon](https://www.instagram.com/emily_mcdon/)
