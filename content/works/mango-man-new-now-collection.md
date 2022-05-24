@@ -7,7 +7,7 @@ video_thumbnail: /images/logo.jpeg
 format: Digital
 director: Héctor Ferreño
 music:
-  - Sau Poler (Indústries Sòniques)
+  - Sau Poler
 ---
 Music for [@mango_man](https://www.instagram.com/mango_man/) New Now Collection\
 🎥 by [@hectorferreno](https://www.instagram.com/hectorferreno/)
