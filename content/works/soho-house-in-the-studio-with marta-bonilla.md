@@ -2,7 +2,7 @@
 title: Soho House
 campaign: In the Studio with Marta Bonilla
 date: 2022-02-02T19:04:52.949Z
-vimeo_id: https://vimeo.com/341455902
+vimeo_id: https://vimeo.com/
 video_thumbnail: /images/logo.jpeg
 format: Digital
 music:
