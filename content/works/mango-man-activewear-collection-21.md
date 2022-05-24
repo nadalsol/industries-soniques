@@ -6,6 +6,6 @@ vimeo_id: https://vimeo.com/341455902
 video_thumbnail: /images/logo.jpeg
 format: Digital
 music:
-  - Sau Poler (Indústries Sòniques)
+  - Sau Poler
 ---
 Music & Sound Design for [@mango_man](https://www.instagram.com/mango_man/) "Activewear Collection 21"
