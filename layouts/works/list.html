@@ -1,5 +1,8 @@
 {{ define "main" }}
 <!-- prettier-ignore -->
+<p>
+  <a href="{{ .Site.BaseURL }}">&lsaquo; Back</a>
+</p>
 <ul>
   {{ range $index, $value := where .Pages.ByDate.Reverse ".Draft" false}}
   <li>
