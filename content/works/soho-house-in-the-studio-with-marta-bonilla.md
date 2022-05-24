@@ -7,7 +7,7 @@ video_thumbnail: /images/logo.jpeg
 format: Digital
 director: Héctor Ferreño
 music:
-  - Sau Poler (Indústries Sòniques)
+  - Sau Poler
 ---
 
 Music & Sound Design for [@sohohouse](https://www.instagram.com/sohohouse/) "In the Studio with [@martabonillam](https://www.instagram.com/martabonillam/) "\
