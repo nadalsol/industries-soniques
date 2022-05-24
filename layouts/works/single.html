@@ -4,7 +4,18 @@
 <p>{{ .Date }}</p>
 <ul>
   <li>{{ .Params.vimeo_id }}</li>
-  <li>{{ .Params.video_thumbnail }}</li>
+  <!-- prettier-ignore -->
+  {{ with .Params.video_thumbnail }}
+  <li>{{ . }}</li>
+  {{ end }}
+  <!-- prettier-ignore -->
+  {{ with .Params.video_thumbnail_gif_small }}
+  <li>{{ . }}</li>
+  {{ end }}
+  <!-- prettier-ignore -->
+  {{ with .Params.video_thumbnail_gif_large }}
+  <li>{{ . }}</li>
+  {{ end }}
   <!-- prettier-ignore -->
   {{ with .Params.format }}
   <li>{{ . }}</li>
@@ -18,4 +29,6 @@
 <!-- prettier-ignore -->
 {{ with .Content }}
 <article>{{ . }}</article>
-{{ end }} {{ end }}
+{{ end }}
+<!-- prettier-ignore -->
+{{ end }}
