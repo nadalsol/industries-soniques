@@ -24,7 +24,15 @@
   {{ with .Params.director }}
   <li>{{ . }}</li>
   {{ end }}
-  <li>{{ .Params.music }}</li>
+  <!-- prettier-ignore -->
+  {{ if .Params.music }}
+  <li>
+    <!-- prettier-ignore -->
+    {{ range $index, $element := .Params.music }}
+      {{ $element }}{{ if gt $index 0 }}, {{ end }}
+    {{ end }}
+  </li>
+  {{ end }}
 </ul>
 <!-- prettier-ignore -->
 {{ with .Content }}
