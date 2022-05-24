@@ -28,6 +28,21 @@ collections:
           name: "video_thumbnail",
           widget: "image",
           choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Video Thumbnail Gif (small)",
+          name: "video_thumbnail_gif_small",
+          widget: "image",
+          choose_url: false,
+          required: false,
+        }
+      - {
+          label: "Video Thumbnail Gif (large)",
+          name: "video_thumbnail_gif_large",
+          widget: "image",
+          choose_url: false,
+          required: false,
         }
       - { label: "Format", name: "format", widget: "string", required: false }
       - {
@@ -40,6 +55,6 @@ collections:
         name: "music"
         widget: "select"
         multiple: true
-        options: ["Sau Poler (Indústries Sòniques)"]
-        default: ["Sau Poler (Indústries Sòniques)"]
+        options: ["Sau Poler"]
+        default: ["Sau Poler"]
       - { label: "Body", name: "body", widget: "markdown", required: false }
