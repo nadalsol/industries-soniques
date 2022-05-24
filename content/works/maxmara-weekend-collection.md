@@ -6,6 +6,6 @@ vimeo_id: https://vimeo.com/341455902
 video_thumbnail: /images/logo.jpeg
 format: Digital
 music:
-  - Sau Poler (Indústries Sòniques)
+  - Sau Poler
 ---
 Music & Sound Design for [@maxmara](https://www.instagram.com/maxmara/) "Weekend" Collection
