@@ -7,7 +7,7 @@ video_thumbnail: /images/logo.jpeg
 format: Digital
 director: Héctor Ferreño
 music:
-  - Sau Poler (Indústries Sòniques)
+  - Sau Poler
 ---
 Music for [@mango](https://www.instagram.com/mango/) x [@chufy](https://www.instagram.com/chufy/)\
 🎥 by [@hectorferreno](https://www.instagram.com/hectorferreno/)
