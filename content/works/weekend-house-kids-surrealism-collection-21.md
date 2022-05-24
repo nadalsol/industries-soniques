@@ -6,6 +6,6 @@ vimeo_id: https://vimeo.com/341455902
 video_thumbnail: /images/logo.jpeg
 format: Digital
 music:
-  - Sau Poler (Indústries Sòniques)
+  - Sau Poler
 ---
 Music for [@weekendhouse_kids](https://www.instagram.com/weekendhouse_kids/) "Surrealism Collection 21"
