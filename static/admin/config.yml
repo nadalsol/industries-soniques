@@ -44,7 +44,14 @@ collections:
           choose_url: false,
           required: false,
         }
-      - { label: "Format", name: "format", widget: "string", required: false }
+      - {
+          label: "Format",
+          name: "format",
+          widget: "string",
+          date_format: "DD.MM.YYYY",
+          time_format: "HH:mm",
+          required: false,
+        }
       - {
           label: "Director",
           name: "director",
