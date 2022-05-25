@@ -3,7 +3,7 @@ title: Nike
 campaign: Marcus Rashford
 date: 2022-02-02T19:06:56.175Z
 vimeo_id: https://vimeo.com/341455902
-video_thumbnail: /images/logo.jpeg
+video_thumbnail: /images/nike-marcus-rashford.jpeg
 format: Digital
 director: Emily McDonald
 music:
