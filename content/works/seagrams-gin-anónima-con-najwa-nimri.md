@@ -4,6 +4,7 @@ campaign: Anónima con Najwa Nimri
 date: 2022-03-31T15:51:50.503Z
 vimeo_id: https://vimeo.com/341455902
 video_thumbnail: /images/anonima-con-najwa-nimri.jpeg
+format: Digital
 director: Eloi Colom
 music:
   - Sau Poler
