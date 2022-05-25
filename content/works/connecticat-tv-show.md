@@ -3,7 +3,7 @@ title: Connecticat
 campaign: TV Show
 date: 2022-02-02T17:49:04.705Z
 vimeo_id: https://vimeo.com/341455902
-video_thumbnail: /images/connecticat.jpeg
+video_thumbnail: /images/connecticat-tv-show.jpeg
 format: Digital
 director: Martes Studio
 music:
