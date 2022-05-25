@@ -3,7 +3,7 @@ title: Mango
 campaign: Chufy
 date: 2022-02-02T17:57:39.658Z
 vimeo_id: https://vimeo.com/341455902
-video_thumbnail: /images/logo.jpeg
+video_thumbnail: /images/mango-chufy.jpeg
 format: Digital
 director: Héctor Ferreño
 music:
