@@ -10,6 +10,7 @@ collections:
     label: "Works"
     folder: "content/works"
     create: true
+    encoding: "ascii"
     clean_accents: true
     slug: "{{slug}}-{{campaign}}"
     editor:
