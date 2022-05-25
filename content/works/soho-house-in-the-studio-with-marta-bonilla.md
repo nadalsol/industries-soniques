@@ -3,7 +3,7 @@ title: Soho House
 campaign: In the Studio with Marta Bonilla
 date: 2022-02-02T19:06:02.707Z
 vimeo_id: https://vimeo.com/341455902
-video_thumbnail: /images/logo.jpeg
+video_thumbnail: /images/soho-house-in-the-studio-with-marta-bonilla.jpeg
 format: Digital
 director: Héctor Ferreño
 music:
