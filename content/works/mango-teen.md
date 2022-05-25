@@ -3,7 +3,7 @@ title: Mango
 campaign: Teen
 date: 2022-02-02T18:50:48.878Z
 vimeo_id: https://vimeo.com/341455902
-video_thumbnail: /images/logo.jpeg
+video_thumbnail: /images/mango-teen.jpeg
 director: Héctor Ferreño
 music:
   - Sau Poler
