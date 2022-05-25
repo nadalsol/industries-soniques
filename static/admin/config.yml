@@ -10,7 +10,8 @@ collections:
     label: "Works"
     folder: "content/works"
     create: true
-    slug: "{{slug}}-{{campaign}}"
+    # clean_accents: true
+    slug: "{{slug}}-{{campaign | urlize}}"
     editor:
       preview: true
     fields:
