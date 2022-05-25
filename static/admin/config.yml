@@ -12,7 +12,8 @@ collections:
     create: true
     # encoding: "ascii"
     # clean_accents: true
-    slug: "{{slug}}-{{campaign | urlize}}"
+    # slug: "{{slug}}-{{campaign | urlize}}"
+    slug: "{{slug}}-{{campaign}}"
     editor:
       preview: true
     fields:
