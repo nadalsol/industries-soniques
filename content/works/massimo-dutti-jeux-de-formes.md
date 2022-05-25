@@ -3,6 +3,7 @@ title: Massimo Dutti
 campaign: Jeux De Formes
 date: 2022-02-03T09:56:09.007Z
 vimeo_id: https://vimeo.com/341455902
+video_thumbnail: /images/massimo-dutti-jeux-de-formes.jpeg
 format: Digital
 director: Hector Ferreño
 music:
