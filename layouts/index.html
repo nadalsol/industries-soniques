@@ -7,9 +7,9 @@
   <h2>Collections</h2>
   <ul>
     {{ range (where .Pages "Section" "works") }}
-    <li>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </li>
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
     {{ end }}
   </ul>
 

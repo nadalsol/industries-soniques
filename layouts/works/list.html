@@ -1,13 +1,15 @@
 {{ define "main" }}
-<!-- prettier-ignore -->
 <p>
   <a href="{{ .Site.BaseURL }}">&lsaquo; Back</a>
 </p>
+
 <ul>
   {{ range $index, $value := where .Pages.ByDate.Reverse ".Draft" false}}
-  <li>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </li>
+    <li>
+      <a href="{{ .RelPermalink }}">
+        <b>{{ .Title }}</b> - {{ .Params.campaign }}
+      </a>
+    </li>
   {{ end }}
 </ul>
 {{ end }}

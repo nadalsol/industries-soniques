@@ -1,45 +1,51 @@
 {{ define "main" }}
+{{ $title := .Title }}
+{{ $campaign := .Params.campaign }}
+{{ $alt := (print $title " - " $campaign) }}
+
 <p>
   <a href="{{ .Site.BaseURL }}works/">&lsaquo; Back</a>
 </p>
-<h1>{{ .Title }}</h1>
-<h2>{{ .Params.campaign }}</h2>
+
+<h1>{{ $title }}</h1>
+<h2>{{ $campaign }}</h2>
 <p>{{ .Date }}</p>
+
 <ul>
-  <li>{{ .Params.vimeo_id }}</li>
-  <!-- prettier-ignore -->
+  {{ with .Params.vimeo_id }}
+    <li>{{ . }}</li>
+  {{ end }}
   {{ with .Params.video_thumbnail }}
-  <li>{{ . }}</li>
+    <li>
+      <img src="{{ . }}" alt="{{ $alt }} - thumb">
+    </li>
   {{ end }}
-  <!-- prettier-ignore -->
   {{ with .Params.video_thumbnail_gif_small }}
-  <li>{{ . }}</li>
+    <li>
+      <img src="{{ . }}" alt="{{ $alt }} - small clip">
+    </li>
   {{ end }}
-  <!-- prettier-ignore -->
   {{ with .Params.video_thumbnail_gif_large }}
-  <li>{{ . }}</li>
+    <li>
+      <img src="{{ . }}" alt="{{ $alt }} - large clip">
+    </li>
   {{ end }}
-  <!-- prettier-ignore -->
   {{ with .Params.format }}
-  <li>{{ . }}</li>
+    <li>{{ . }}</li>
   {{ end }}
-  <!-- prettier-ignore -->
   {{ with .Params.director }}
-  <li>{{ . }}</li>
+    <li>{{ . }}</li>
   {{ end }}
-  <!-- prettier-ignore -->
   {{ if .Params.music }}
-  <li>
-    <!-- prettier-ignore -->
-    {{ range $index, $element := .Params.music }}
-      {{ $element }}{{ if gt $index 0 }}, {{ end }}
-    {{ end }}
-  </li>
+    <li>
+      {{ range $index, $element := .Params.music }}
+        {{ $element }}{{ if gt $index 0 }}, {{ end }}
+      {{ end }}
+    </li>
   {{ end }}
 </ul>
-<!-- prettier-ignore -->
+
 {{ with .Content }}
-<article>{{ . }}</article>
+  <article>{{ . }}</article>
 {{ end }}
-<!-- prettier-ignore -->
 {{ end }}
