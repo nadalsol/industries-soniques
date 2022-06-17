@@ -3,7 +3,7 @@
   <a href="{{ .Site.BaseURL }}">&lsaquo; Back</a>
 </p>
 
-<ol>
+<ol reversed>
   {{ range $index, $value := where .Pages.ByDate.Reverse ".Draft" false}}
     <li>
       <a href="{{ .RelPermalink }}">
