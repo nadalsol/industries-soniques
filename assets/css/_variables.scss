@@ -29,9 +29,54 @@
 $c-dark: #000;
 $c-light: #fff;
 
+$c-primary: #9e005d;
+
 // Scaffolding
 $icons-path: "/svg/";
 $img-path: "/images/";
 
 $body-bg: $c-light;
 $body-c: $c-dark;
+
+// Media queries (breakpoints)
+$screen-xs-min: 0;
+$screen-sm-min: 20rem; // 320px
+$screen-md-min: 31.25rem; // 500px
+$screen-lg-min: 64rem; // 1024px
+$screen-xlg-min: 96rem; // 1536px
+
+$xsmall-up: "min-width:#{$screen-xs-min}";
+$small-up: "min-width:#{$screen-sm-min}";
+$medium-up: "min-width:#{$screen-md-min}";
+$large-up: "min-width:#{$screen-lg-min}";
+$xlarge-up: "min-width:#{$screen-xlg-min}";
+
+// Z-index table
+$zi-1: 1;
+// $zi-2: 2;
+
+// Components
+// -----------------------------------------------------------------------------
+//
+// Container
+//
+$container-mxwd: 75rem; // 1200px
+
+//
+// Cookie message
+//
+$cookie-message-ht: 10rem; // 160px
+$cookie-message-ht-medium-up: 4.5rem; // 72px
+
+//
+// Header
+//
+$header-ht: 3.75rem; // 60px
+$header-bg: $c-primary;
+$header-zi: $zi-1;
+
+//
+// Logo
+//
+$logo-wd: 2.25rem; // 36px
+$logo-ht: 2.25rem; // 36px

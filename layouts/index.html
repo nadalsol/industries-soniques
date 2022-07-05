@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div
-  style="background-color:{{ if hugo.IsProduction }}beige{{ else }}pink{{ end }}"
+  style="padding: 24px; background-color: {{ if hugo.IsProduction }}beige{{ else }}pink{{ end }}"
 >
   <h1>{{ .Title }} ({{ if hugo.IsProduction }}Prod{{ else }}Local{{ end }})</h1>
 
