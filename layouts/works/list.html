@@ -1,15 +1,16 @@
 {{ define "main" }}
-<p>
-  <a href="{{ .Site.BaseURL }}">&lsaquo; Back</a>
-</p>
-
-<ol reversed>
-  {{ range $index, $value := where .Pages.ByDate.Reverse ".Draft" false}}
-    <li>
-      <a href="{{ .RelPermalink }}">
-        <b>{{ .Title }}</b> - {{ .Params.campaign }}
-      </a>
-    </li>
-  {{ end }}
-</ol>
+<section class="panel">
+  <div class="container">
+    <h2 class="h4">Works</h2>
+    <ul class="card-list">
+      <!-- prettier-ignore -->
+      {{ range $index, $value := where .Pages.ByDate.Reverse ".Draft" false}}
+      <li class="card-list__item">
+        <!-- prettier-ignore -->
+        {{ partial "card-link.html" (dict "link" .RelPermalink "path" .Params.video_thumbnail "title" .Title "campaign" .Params.campaign) }}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
 {{ end }}

@@ -1,0 +1,26 @@
+<!-- prettier-ignore -->
+{{ $cardLink := .link }}
+{{ $cardImgSrc := .path }}
+{{ $cardTitle := .title }}
+{{ $cardCampaign := .campaign }}
+
+<a class="card card--link" href="{{ .Site.BaseURL }}{{ $cardLink }}">
+  <div class="o-img-aspect-ratio o-img-aspect-ratio--3x2">
+    <!-- prettier-ignore -->
+    <img
+      class="o-img-aspect-ratio__media"
+      src="{{ .Site.BaseURL }}{{ $cardImgSrc }}"
+      alt="{{ $cardTitle }}{{ with $cardCampaign }} - {{ . }}{{ end }}"
+    />
+  </div>
+  <!-- prettier-ignore -->
+  {{ with $cardTitle }}
+  <h3 class="card__title subtitle-1 subtitle-1--primary">
+    <b>{{ . }}</b>
+  </h3>
+  {{ end }}
+  <!-- prettier-ignore -->
+  {{ with $cardCampaign }}
+  <h4 class="card__title subtitle-2">{{ . }}</h4>
+  {{ end }}
+</a>
