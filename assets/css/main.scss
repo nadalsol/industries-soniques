@@ -32,7 +32,7 @@
 @import "./mixins/sizing";
 @import "./mixins/state";
 // @import "./mixins/text";
-// @import "./mixins/typography";
+@import "./mixins/typography";
 
 //
 // 3. Generic
@@ -58,7 +58,7 @@
 // @import "./components/aspect-ratio";
 // @import "./components/banner";
 // @import "./components/block-centering";
-// @import "./components/button";
+@import "./components/button";
 // @import "./components/card-list";
 // @import "./components/card";
 // @import "./components/chip-list";

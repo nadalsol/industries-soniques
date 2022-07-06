@@ -29,6 +29,18 @@
 $c-dark: #000;
 $c-light: #fff;
 
+// $c-dark-high-emphasis: rgba(0, 0, 0, 0.87);
+// $c-dark-medium-emphasis: rgba(0, 0, 0, 0.54);
+// $c-dark-disabled-emphasis: rgba(0, 0, 0, 0.38);
+// $c-dark-low-emphasis: rgba(0, 0, 0, 0.26);
+// $c-dark-lower-emphasis: rgba(0, 0, 0, 0.12);
+
+// $c-light-high-emphasis: rgba(255, 255, 255, 0.87);
+// $c-light-medium-emphasis: rgba(255, 255, 255, 0.54);
+// $c-light-disabled-emphasis: rgba(255, 255, 255, 0.38);
+// $c-light-low-emphasis: rgba(255, 255, 255, 0.26);
+$c-light-lower-emphasis: rgba(255, 255, 255, 0.12);
+
 $c-primary: #9e005d;
 
 // Scaffolding
@@ -37,6 +49,44 @@ $img-path: "/images/";
 
 $body-bg: $c-light;
 $body-c: $c-dark;
+
+// Fonts
+$ff-primary: "Source Sans Pro", sans-serif;
+$ff-secondary: "Poppins", sans-serif;
+$ff-base: $ff-primary;
+
+$fz-base: 1rem; // 16px
+// $fz-12: 0.75rem;
+$fz-13: 0.8125rem;
+$fz-14: 0.875rem;
+$fz-16: $fz-base;
+$fz-20: 1.25rem;
+$fz-24: 1.5rem;
+// $fz-32: 2rem;
+$fz-34: 2.125rem;
+$fz-48: 3rem;
+// $fz-64: 4rem;
+// $fz-96: 6rem;
+// $fz-128: 8rem;
+
+$fw-base: 400; // regular
+// $fw-thin: 100;
+// $fw-light: 300;
+$fw-regular: $fw-base;
+$fw-medium: 500;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+// $fw-black: 900;
+
+$lh-base: 1.5;
+$lh-3xsmall: 1.17647;
+$lh-2xsmall: 1.25;
+$lh-xsmall: 1.33333;
+$lh-small: 1.42857;
+$lh-medium: $lh-base;
+$lh-large: 1.6;
+$lh-xlarge: 1.7;
+$lh-2xlarge: 1.8;
 
 // Media queries (breakpoints)
 $screen-xs-min: 0;
@@ -57,6 +107,52 @@ $zi-1: 1;
 
 // Components
 // -----------------------------------------------------------------------------
+//
+// Button
+//
+$button-ff: $ff-secondary;
+$button-fz: $fz-14;
+$button-fw: $fw-semi-bold;
+$button-lh: $lh-xlarge;
+$button-ls: 0.1px;
+$button-tt: none;
+
+// $button-fz-large: $fz-18;
+
+$button-primary-bg: $c-primary;
+$button-primary-br: $button-primary-bg;
+$button-primary-c: $c-light;
+
+$button-primary-hover-bg: desaturate($button-primary-bg, 30%);
+$button-primary-hover-br: $button-primary-hover-bg;
+$button-primary-hover-c: $c-light;
+
+// $button-secondary-bg: $c-secondary;
+// $button-secondary-br: $button-secondary-bg;
+// $button-secondary-c: $c-light;
+
+// $button-secondary-hover-bg: lighten($button-secondary-bg, 15%);
+// $button-secondary-hover-br: $button-secondary-hover-bg;
+// $button-secondary-hover-c: $c-light;
+
+// $button-ghost-bg: transparent;
+// $button-ghost-br: $c-primary;
+// $button-ghost-c: $button-ghost-br;
+
+// $button-ghost-hover-bg: $c-primary-08;
+// $button-ghost-hover-br: $c-primary;
+// $button-ghost-hover-c: $button-ghost-hover-br;
+
+$button-transparent-bg: transparent;
+$button-transparent-br: transparent;
+$button-transparent-c: $c-light;
+
+$button-transparent-hover-bg: $c-light-lower-emphasis;
+$button-transparent-hover-br: transparent;
+$button-transparent-hover-c: $c-light;
+
+// $button-disabled-c: $c-dark-disabled-emphasis;
+
 //
 // Container
 //

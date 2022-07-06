@@ -33,4 +33,11 @@ body.is-cookie-message .main-container {
     padding-left: convert-px-to-rem(32);
     padding-right: convert-px-to-rem(32);
   }
+
+  &--flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
 }
