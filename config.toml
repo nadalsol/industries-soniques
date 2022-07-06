@@ -9,10 +9,11 @@ enableRobotsTXT = true
 
   # Company info
   companyEmail = "hello@industries-soniques.com"
-  # companyPhone = "34 123 456 789"
+  companyPhone = "34 123 456 789"
 
   # Social links
   instagram = "https://www.instagram.com/industries_soniques/"
+  vimeo = "https://vimeo.com/industries_soniques"
 
 # [Enable raw HTML within markdown content](https://bit.ly/3J6OfCa)
 # [markup.goldmark.renderer]

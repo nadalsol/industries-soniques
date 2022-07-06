@@ -2,12 +2,14 @@
 // -----------------------------------------------------------------------------
 
 .btn {
-  @include typography($button-ff,
+  @include typography(
+    $button-ff,
     $button-fz,
     $button-fw,
     $button-lh,
     $button-ls,
-    $button-tt );
+    $button-tt
+  );
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +24,7 @@
   transition: 0.25s ease-in-out background-color, 0.25s ease-in-out border-color,
     0.25s ease-in-out color;
 
-  >svg {
+  > svg {
     fill: currentColor;
   }
 
